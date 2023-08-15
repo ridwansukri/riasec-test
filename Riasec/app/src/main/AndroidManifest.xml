@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="emcorp.studio.riasec">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/your_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SaranActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".HasilActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".PertanyaanActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MulaiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TentangActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".WelcomeActivity" />
+        <activity
+            android:name=".RealisticActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InvestigativeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArtisticActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SocialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EnterprisingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ConventionalActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
